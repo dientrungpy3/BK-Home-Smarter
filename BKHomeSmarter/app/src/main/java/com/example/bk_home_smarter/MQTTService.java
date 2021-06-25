@@ -70,7 +70,7 @@ public class MQTTService {
                 }
                 @Override
                 public void onFailure(IMqttToken asyncActionToken, Throwable exception) {
-                    Log.w("Mqtt","Failedtoconnectto:"+ serverUri + exception. toString());
+                    Log.w("Mqtt","Fail to connect to :"+ serverUri + exception. toString());
                 }
             });
 
